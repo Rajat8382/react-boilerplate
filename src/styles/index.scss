@@ -1,0 +1,23 @@
+@import './constants/responsive.scss';
+@import './constants/colors.scss';
+@import './constants/fonts.scss';
+
+// styles for containers
+@import './containers/index.scss';
+
+// styles for components
+
+
+//global styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: $font-regular;
+}
+
+a {
+  text-decoration: none;
+}
